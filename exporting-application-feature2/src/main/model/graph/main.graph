@@ -1,0 +1,11 @@
+# App2
+
+VM {
+	installer: target;
+	children: App2;
+}
+
+App2 {
+	installer: script;
+	exports: ip, data = this is application 2;
+}

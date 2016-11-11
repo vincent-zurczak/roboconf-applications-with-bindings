@@ -1,0 +1,11 @@
+# Importing Application
+
+VM {
+	installer: target;
+	children: App;
+}
+
+App {
+	installer: script;
+	imports: external feature1.data, external feature2.data;
+}
